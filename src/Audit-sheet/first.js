@@ -7,7 +7,7 @@ const Monitorpage = () => {
     <div class="container">
       <div class="left-div"></div>
       <div class="right-div">
-      <div className="card-container">
+      <div className="auditcard-container">
         <div className="card">
           <h2>section 1</h2>
           <p>This is the content of section 1</p>
