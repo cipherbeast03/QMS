@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+  }
+  
+  .left-div {
+    height: 1000px;
+    width: 70%;
+    background-color: #f0f0f0; /* Just for visualization */
+    /* Other styles for left div */
+  }
+  
+  .right-div {
+    width: 30%; /* The rest of the space */
+    background-color: #ccc; /* Just for visualization */
+    /* Other styles for right div */
+  }
+  
+  /* Card styles */
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 0 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

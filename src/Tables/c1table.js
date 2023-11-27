@@ -1,5 +1,6 @@
 // TableComponent.js
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import './table.css'; // Import your CSS file
 
 const TableC1 = () => {
@@ -243,7 +244,9 @@ const TableC1 = () => {
               <td>{row.col6}</td>
               <td>{row.col7}</td>
               <td>
-                <button className="search-button">Monitor Now</button>
+                <NavLink to="/first-page" className="navbar-button">
+                  Monitor Now
+                </NavLink>
               </td>
             </tr>
           ))}
